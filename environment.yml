@@ -1,4 +1,4 @@
-name: aai530-2-1
+name: aai530-3-1
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
@@ -49,6 +49,7 @@ dependencies:
   - ipywidgets=8.1.5
   - jedi=0.19.2
   - jinja2=3.1.4
+  - joblib=1.4.2
   - jpeg=9e
   - json5=0.9.25
   - jsonschema=4.23.0
@@ -154,6 +155,8 @@ dependencies:
   - rfc3339-validator=0.1.4
   - rfc3986-validator=0.1.1
   - rpds-py=0.22.3
+  - scikit-learn=1.6.1
+  - scipy=1.15.1
   - send2trash=1.8.2
   - setuptools=72.1.0
   - sip=6.7.12
@@ -163,6 +166,7 @@ dependencies:
   - sqlite=3.45.3
   - stack_data=0.2.0
   - terminado=0.17.1
+  - threadpoolctl=3.5.0
   - tinycss2=1.2.1
   - tk=8.6.14
   - tomli=2.0.1
